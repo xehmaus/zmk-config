@@ -27,8 +27,8 @@
    &kp GRAVE &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SEMI &kp MINUS
    &kp RBKT  &kp A &kp R &kp S &kp T &kp G   &kp M &kp N  &kp E     &kp I   &kp O    &kp APOS
    &kp LBKT  &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &kp BSLH 
- //  &lt NAV ENT &lt FLIP SPACE &lt NUM BSPC   &lt PAD DEL &lt RSET TAB &kp RSHFT
-                    &trans &trans &trans             &trans &trans &trans  
+   &lt NAV RET &lt FLIP SPACE &lt NUM BSPC   &lt PAD DEL &lt RSET TAB &kp RSHFT
+//                    &trans &trans &trans             &trans &trans &trans  
                         >;
                 };
                 flip_layer {
@@ -42,11 +42,11 @@
                 nav_layer {
                         bindings = <
   &kp CAPS  &kp INS  &kp RET  &kp UP   &kp PG_UP  &kp J       &trans &trans &trans &trans &trans &trans 
-//  &kp LSHFT &kp HOME &kp LEFT &kp DOWN &kp RIGHT  &kp END     &trans &trans &trans &trans &trans &trans 
-//  &kp LCTRL &kp LALT &kp BSPC &kp DEL  &kp PG_DN  &kp K_CMENU &trans &trans &trans &trans &trans &trans
+  &kp LSHFT &kp HOME &kp LEFT &kp DOWN &kp RIGHT  &kp END     &trans &trans &trans &trans &trans &trans 
+  &kp LCTRL &kp LALT &kp BSPC &kp DEL  &kp PG_DN  &kp K_CMENU &trans &trans &trans &trans &trans &trans
 //  &trans &trans &kp F9  &kp F8 &kp F7 &kp F12    &trans &trans &trans &trans &trans &trans 
-  &trans &trans &kp F6  &kp F5 &kp F4 &kp F11    &trans &trans &trans &trans &trans &trans 
-  &trans &trans &kp F3  &kp F2 &kp F1 &kp F10    &trans &trans &trans &trans &trans &trans
+//  &trans &trans &kp F6  &kp F5 &kp F4 &kp F11    &trans &trans &trans &trans &trans &trans 
+//  &trans &trans &kp F3  &kp F2 &kp F1 &kp F10    &trans &trans &trans &trans &trans &trans
                     &trans &trans &trans             &trans &trans &trans  
                         >;
                 };
