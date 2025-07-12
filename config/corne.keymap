@@ -31,22 +31,22 @@
                     &trans &trans &trans             &trans &trans &trans  
                         >;
                 };
-//                flip_layer {
-//                        bindings = <
-//  &kp MINUS &kp SEMI &kp Y   &kp U     &kp L  &kp J    &trans &trans &trans &trans &trans &trans 
-//  &kp APOS  &kp O    &kp I   &kp E     &kp N  &kp M    &trans &trans &trans &trans &trans &trans 
-//  &kp BSLH  &kp FSLH &kp DOT &kp COMMA &kp H  &kp K    &trans &trans &trans &trans &trans &trans
-//                    &trans &trans &trans             &trans &trans &trans  
-//                        >;
-//                };
-                nav_layer {
+                flip_layer {
                         bindings = <
-  &kp CAPS  &kp INS  &kp ENT  &kp UP   &kp PG_UP  &kp J       &trans &trans &trans &trans &trans &trans 
-  &kp LSHFT &kp HOME &kp LEFT &kp DOWN &kp RIGHT  &kp END     &trans &trans &trans &trans &trans &trans 
-  &kp LCTRL &kp LALT &kp BSPC &kp DEL  &kp PG_DN  &kp K_CMENU &trans &trans &trans &trans &trans &trans
+  &kp MINUS &kp SEMI &kp Y   &kp U     &kp L  &kp J    &trans &trans &trans &trans &trans &trans 
+  &kp APOS  &kp O    &kp I   &kp E     &kp N  &kp M    &trans &trans &trans &trans &trans &trans 
+  &kp BSLH  &kp FSLH &kp DOT &kp COMMA &kp H  &kp K    &trans &trans &trans &trans &trans &trans
                     &trans &trans &trans             &trans &trans &trans  
                         >;
                 };
+//                nav_layer {
+//                        bindings = <
+//  &kp CAPS  &kp INS  &kp ENT  &kp UP   &kp PG_UP  &kp J       &trans &trans &trans &trans &trans &trans 
+//  &kp LSHFT &kp HOME &kp LEFT &kp DOWN &kp RIGHT  &kp END     &trans &trans &trans &trans &trans &trans 
+//  &kp LCTRL &kp LALT &kp BSPC &kp DEL  &kp PG_DN  &kp K_CMENU &trans &trans &trans &trans &trans &trans
+//                    &trans &trans &trans             &trans &trans &trans  
+//                        >;
+//                };
 //                num_layer {
 //                        bindings = <
 //  &kp STAR  &kp FSLH  &kp N9  &kp N8 &kp N7 &kp RET   &trans &trans &trans &trans &trans &trans 
