@@ -47,22 +47,22 @@
 //                    &trans &trans &trans             &trans &trans &trans  
 //                        >;
 //                };
-//                num_layer {
-//                        bindings = <
-//  &kp STAR  &kp FSLH  &kp N9  &kp N8 &kp N7 &kp RET   &trans &trans &trans &trans &trans &trans 
-//  &kp EQUAL &kp PLUS  &kp N6  &kp N5 &kp N4 &kp DOT   &trans &trans &trans &trans &trans &trans 
-//  &trans    &kp MINUS &kp N3  &kp N2 &kp N1 &kp N0    &trans &trans &trans &trans &trans &trans
-//                    &trans &trans &trans             &trans &trans &trans  
-//                        >;
-//                };
-//                fun_layer {
-//                        bindings = <
-//  &trans &trans &kp F9  &kp F8 &kp F7 &kp F12    &trans &trans &trans &trans &trans &trans 
-//  &trans &trans &kp F6  &kp F5 &kp F4 &kp F11    &trans &trans &trans &trans &trans &trans 
-//  &trans &trans &kp F3  &kp F2 &kp F1 &kp F10    &trans &trans &trans &trans &trans &trans
-//                    &trans &trans &trans             &trans &trans &trans  
-//                        >;
-//                };
+                num_layer {
+                        bindings = <
+  &kp STAR  &kp FSLH  &kp N9  &kp N8 &kp N7 &kp RET   &trans &trans &trans &trans &trans &trans 
+  &kp EQUAL &kp PLUS  &kp N6  &kp N5 &kp N4 &kp DOT   &trans &trans &trans &trans &trans &trans 
+  &trans    &kp MINUS &kp N3  &kp N2 &kp N1 &kp N0    &trans &trans &trans &trans &trans &trans
+                    &trans &trans &trans             &trans &trans &trans  
+                        >;
+                };
+                fun_layer {
+                        bindings = <
+  &trans &trans &kp F9  &kp F8 &kp F7 &kp F12    &trans &trans &trans &trans &trans &trans 
+  &trans &trans &kp F6  &kp F5 &kp F4 &kp F11    &trans &trans &trans &trans &trans &trans 
+  &trans &trans &kp F3  &kp F2 &kp F1 &kp F10    &trans &trans &trans &trans &trans &trans
+                    &trans &trans &trans             &trans &trans &trans  
+                        >;
+                };
 //                rset_layer {
 //                        bindings = <
 //  &trans &trans &trans &trans &trans &trans     &trans &trans    &trans    &trans   &trans   &trans 
