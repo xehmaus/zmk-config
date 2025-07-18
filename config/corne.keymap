@@ -132,8 +132,7 @@
    &kp GRAVE &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SEMI &kp MINUS
    &kp RBKT  &kp A &kp R &kp S &kp T &kp G   &kp M &kp N  &kp E     &kp I   &kp O    &kp APOS
    &kp LBKT  &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &kp BSLH 
-   &lt NAV RET &lt FLIP SPACE &lt NUM BSPC   &lt PAD DEL &lt RSET TAB &kp RSHFT
-//                    &trans &trans &trans             &trans &trans &trans  
+       &kp BSPC &lt NAV RET &lt FLIP SPACE    &lt PAD DEL &lt RSET TAB &kp RSHFT
                         >;
         };
                 flip_layer {
@@ -157,17 +156,17 @@
                 };
                 num_layer {
                         bindings = <
-  &kp STAR  &kp FSLH  &kp N9  &kp N8 &kp N7 &kp RET   &trans &trans &trans &trans &trans &trans 
-  &kp EQUAL &kp PLUS  &kp N6  &kp N5 &kp N4 &kp DOT   &trans &trans &trans &trans &trans &trans 
-  &trans    &kp MINUS &kp N3  &kp N2 &kp N1 &kp N0    &trans &trans &trans &trans &trans &trans
-                    &trans &trans &trans             &trans &trans &trans  
+  &trans &trans &kp N7  &kp N8 &kp N9 &kp EQUAL &trans &trans &trans &trans &trans &trans 
+  &trans &trans &kp N2  &kp N1 &kp N0 &kp DOT   &trans &trans &trans &trans &trans &trans 
+  &trans &trans &kp N3  &kp N4 &kp N5 &kp N6    &trans &trans &trans &trans &trans &trans
+                    &kp BSPC &kp RET &kp LSHFT         &trans &trans &trans  
                         >;
                 };
                 fun_layer {
                         bindings = <
-  &bt BT_CLR &bt BT_SEL 0 &kp F9  &kp F8 &kp F7 &kp F12    &trans &trans &trans &trans &trans &trans 
-  &trans &bt BT_SEL 1 &kp F6  &kp F5 &kp F4 &kp F11    &trans &trans &trans &trans &trans &trans 
-  &trans &bt BT_SEL 2 &kp F3  &kp F2 &kp F1 &kp F10    &trans &trans &trans &trans &trans &trans
+  &bt BT_CLR &bt BT_SEL 0 &kp F7  &kp F8 &kp F9  &kp F12    &trans &trans &trans &trans &trans &trans 
+  &trans     &bt BT_SEL 1 &kp F2  &kp F1 &kp F10 &kp F11    &trans &trans &trans &trans &trans &trans 
+  &trans     &bt BT_SEL 2 &kp F3  &kp F4 &kp F5  &kp F6    &trans &trans &trans &trans &trans &trans
                     &trans &trans &trans             &trans &trans &trans  
                         >;
                 };
